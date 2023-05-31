@@ -1,0 +1,194 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "hallo",
+          "hai",
+          "halo",
+          "hei",
+          "hi",
+          "hy",
+          "pagi",
+          "morning",
+          "siang",
+          "afternoon",
+          "sore",
+          "malam",
+          "bro",
+          "sis",
+          "kawan",
+          "LhokBot"
+        ],
+        "responses": [
+          "Hai! LhokBot di sini. Mau tau informasi tentang apa nih?",
+          "Halo! Saya LhokBot, salam kenal! Mau tau tentang Kota Lhokseumawe kan?",
+          "Helo! Dengan Saya Lhokbot, ada yang bisa saya bantu?"
+ 
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Dah",
+          "Dadah",
+          "Bye",
+          "Byee",
+          "Good bye",
+          "Selamat tinggal",
+          "Sampai jumpa",
+          "Bai",
+          "See you"
+        ],
+        "responses": [
+          "Bye!",
+          "Dadahh!",
+          "Good bye!",
+          "Dahh, semoga harimu menyenangkan yaa!",
+          "Sampai jumpa lagi!",
+          "See u! Senang bisa membantu"
+        ]
+      },
+      {
+        "tag": "terimakasih",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "Terima kasih",
+          "Makasih",
+          "Terima kasih banyak"
+        ],
+        "responses": [
+          "Dengan senang hati",
+          "Sama Samaa, semoga membantu yaa!"
+        ]
+      },
+      {
+        "tag": "tentang_lhokseumawe",
+        "patterns":[
+            "Sejarah Lhokseumawe?",
+            "tentang Lhokseumawe?",
+            "Lhokseumawe"
+        ], 
+        "responses":[
+            "Asal kata Lhokseumawe adalah Lhok dan Seumawe. Lhok artinya dalam, teluk, palung laut dan Seumawe artinya air yang berputar-putar atau pusat dan mata air pada laut sepanjang lepas pantai Banda Sakti dan sekitarnya. Keterangan lain juga menyebutkan nama Lhokseumawe berasal dari nama Teungku yaitu Teungku Lhokseumawe, yang dimakamkan dikampung Uteun Bayi, merupakan kampung tertua di Kecamatan Banda Sakti. Berdasarkan Undang-Undang Nomor 5 Tahun 1974 tentang Pokok-Pokok Pemerintah di Daerah, berpeluang peningkatan status Lhokseumawe menjadi Kota Administrasif. Dengan Nota Dinas Bupati Kepala Daerah Tk. II Aceh Utara Nomor 125/50/80 Tanggal 12 Mei 1980, Drs. Mahyiddin AR ditunjuk sebagai Ketua Tim Perencana Kota Lhokseumawe menjadi Kota Administratif dibawah arahan Bupati Aceh Utara Kolonel H. Ali Basyah. Pada Tanggal 14 Agustus 1986 Pembentukan Kota Administratif (Kotif) Lhokseumawe ditandatangani oleh Presiden Soeharto, yang diresmikan oleh Menteri Dalam negeri Soeparjo Roestam pada tanggal 31 Agustus 1987 dengan Walikotif perdananya Bapak Drs. H. Mahyiddin AR yang dilantik oleh Gubernur Propinsi Daerah Istimewa Aceh, Prof. DR Ibrahim Hasan, MBA. Untuk info lebih lanjut kamu bisa kunjungi link berikut yaa 😄: https://www.lhokseumawekota.go.id/"
+        ]
+      },
+      {
+        "tag": "visi_misi_lhokseumawe",
+        "patterns": [
+            "apa visi misi lhokseumawe?",
+            "visi misi Kota Lhokseumawe"
+        ],
+        "responses": [
+            "Visi : MEWUJUDKAN KOTA LHOKSEUMAWE BERSYARIAT, SEHAT, CERDAS DAN SEJAHTERA BERDASARKAN UU-PA DAN MOU HELSINKI. Misi : 1.Mewujudkan masyarakat yang Islami, yaitu membentuk manusia yang bertaqwa pada Allah SWT, menjadikan nilai-nilai syariat Islam sebagai dasar dalam mengembangkan nilai-nilai budaya lokal; 2.Meningkatkan perekonomian yang Berdaya Saing dan berbasis potensi daerah dengan titik berat pada Industri, Jasa, Pariwisata, dan Perikanan yaitu mengembangkan dan mendorong perekonomian yang berdaya saing dan mempunyai keunggulan kompetitif yang tinggi, membangun kerjasama perekonomian dengan berbagai pihak, pengembangan iklim usaha yang kondusif untuk merangsang investasi dari dalam dan luar negeri, regulasi yang mendukung perkembangan perekonomian terutama usaha kecil dan menengah dan mensinergikan sektor-sektor lain berbasis potensi daerah yang mendukung perindustrian, perdagangan, jasa dan pariwisata; 3.Meningkatkan sumber daya manusia yang berkualitas dan berdaya saing, yaitu meningkatkan kualitas pendidikan pada semua jenjang, melibatkan segenap stakeholders dalam penyelenggaraan pendidikan dengan standar kualitas yang tinggi, pendidikan yang memiliki daya saing dan kompetensi yang tinggi mengupayakan sistem pendidikan yang unggul, penyediaan sarana dan prasarana pendidikan yang berkualitas, mengupayakan biaya pendidikan yang terjangkau dan dapat diakses oleh masyarakat, pendidikan yang menjunjung nilai-nilai agama dan nilai-nilai luhur budaya, sehingga dapat terbentuk manusia yang bertaqwa pada Tuhan Yang Maha Esa, dan mengamalkan nilai-nilai agama. Demikian pula, meningkatkan akses terhadap pelayanan kesehatan yang berkualitas, serta meningkatkan peran serta masyarakat dalam pembangunan kesehatan; 4.Mewujudkan Kota Lhokseumawe dengan tata kelola Pemerintahan yang bersih dan baik (Clean and Good Governance), demokrasi yang berlandaskan hukum, yaitu pemantapan Kinerja Pemerintah Daerah yakni upaya-upaya peningkatan sistem Penyelenggaraan Pemerintahan Daerah yang meliputi penetapan kebijakan dan regulasi, pembinaan aparatur Pemerintahan Daerah, pengembangan sistem perencanaan, penganggaran, pelaksanaan dan pengawasan kegiatan sebagai upaya untuk mewujudkan tata pemerintahan yang baik (good governance). Demikian pula memantapkan kelembagaan demokrasi yang lebih kokok, memperkuat peran masyarakat sipil, memperkuat kualitas desentralisasi dan otonomi daerah, menjamin pengembangan dan kebebasan media dalam mengkomunikasikan kepentingan masyarakat, melakukan pembenahan struktur hukum dan meningkatkan budaya hukum dan menegakkan hukum secara adil, konsekuen, tidak diskriminatif dan memihak pada rakyat kecil; 5.Mewujudkan pemerataan pembangunan, serta sarana dan prasarana yang memadai, adalah mengurangi kesenjangan sosial secara menyeluruh, keberpihakan pada masyarakat yang lemah, menurunkan kemiskinan dan pengangguran, menghilangkan diskriminasi dalam berbagai aspek, menyediakan akses yang sama bagi masyarakat terhadap pelayanan sosial serta sarana dan prasarana dasar perkotaan, membangun sarana dan prasarana yang mendukung mobilitas barang, jasa dan orang, meningkatkan peran serta masyarakat dan swasta dalam penyediaan sarana dan prasarana perkotaan; 6.Mewujudkan Kota Lhokseumawe yang Sehat, Asri dan Lestari, adalah pembangunan yang memperhatikan daya dukung lingkungan, mengelola Sumber Daya Alam dan lingkungan hidup secara berkelanjutan, menjaga keseimbangan pemanfaatan ruang antara kawasan budidaya dan kawasan lindung, memperbaiki pengelolaan sumber daya alam dan lingkungan hidup untuk mendukung kualitas kehidupan, dan meningkatkan pemeliharaan dan pemanfaatan keanekaragaman hayati sebagai modal dasar pembangunan; 7.Mewujudkan Kota Lhokseumawe yang tentram, tertib, damai dan bersatu, adalah penciptaan lingkungan yang kondusif dengan memantapkan kemitraan antara masyarakat, Pemerintah Daerah dan aparat penegak hukum sehingga mampu melindungi dan mengayomi masyarakat, mencegah tindak kejahatan, dan menuntaskan tindak kriminalitas;"
+        ]
+      },
+      {
+        "tag": "walikota_lhokseumawe",
+        "patterns": [
+            "siapa nama walikota Lhokseumawe?",
+            "siapa walikota lhokseumawe?",
+            "walikota lhokseumawe"
+        ],
+        "responses": [
+            "Bapak Dr.Drs.Imran, M.Si, MA.cd"
+        ]
+      },
+      {
+        "tag": "letak_lhokseumawe",
+        "patterns": [
+            "dimana letak lhokseumawe?",
+            "lokasi lhokseumawe"
+        ],
+        "responses": [
+            "Kota Lhokseumawe terletak di antara 4˚ - 5˚ Lintang Utara dan 96˚ - 97˚ Bujur Timur dengan ketinggian rata-rata 13 meter di atas permukaan laut. Batas-batas wilayah Kota Lhokseumawe, sebelah Utara berbatasan dengan Selat Malaka, sebelah Selatan dengan Kecamatan Kuta Makmur (Aceh Utara), sebelah Timur dengan Kecamatan Syamtalira Bayu (Aceh Utara), dan sebelah Barat dengan Kecamatan Dewantara (Aceh Utara)."
+        ]
+      },
+      {
+        "tag": "jumlah_penduduk_lhokseumawe",
+        "patterns": [
+            "berapa banyak penduduk lhokseumawe?",
+            "jumlah penduduk kota lhokseumawe"
+        ],
+        "responses": [
+            "Jumlah penduduk Kota Lhokseumawe pada tahun 2016 adalah sebanyak 195.186 jiwa."
+        ]
+      },
+      {
+        "tag": "luas_wilayah_lhokseumawe",
+        "patterns": [
+            "seberapa luas kota lhokseumawe?",
+            "luas wilayah lhokseumawe"
+        ],
+        "responses": [
+            "Luas Kota Lhokseumawe yaitu 181,06 ㎢, sebesar 60% dari luas Kota Lhokseumawe merupakan wilayah pemukiman penduduk"
+        ]
+      },
+      {
+        "tag": "alamat_kantor_walikota_lhokseumawe",
+        "patterns": [
+            "dimana letak kantor walikota lhokseumawe?",
+            "alamat kantor walikota lhokseumawe?",
+            "lokasi kantor wali kota"
+        ],
+        "responses": [
+            "Alamat Kantor Walikota Lhokseumawe yaitu di Jl. Merdeka No. 2"
+        ]
+      },
+      {
+        "tag": "kontak_kota_lhokseumawe",
+        "patterns": [
+            "kontak lhokseumawe?",
+            "nomor kontak kota lhokseumawe"
+        ],
+        "responses": [
+            "Telp./Fax. (0645) 631256"
+        ]
+      },
+      {
+        "tag": "email_kota_lhokseumawe",
+        "patterns":[
+            "apa email lhokseumawe?",
+            "email kota lhokseumawe"
+        ],
+        "responses": [
+            "Email: info@lhokseumawekota.go.id"
+        ]
+      },
+      {
+        "tag": "nomor_pos_lhokseumawe",
+        "patterns": [
+            "berapa nomor pos lhokseumawe?",
+            "nomor kantor pos kota lhokseumawe",
+            "pos kota lhokseumawe",
+            "kode pos Lhokseumawe"
+        ],
+        "responses": [
+            "Kode Pos Lhokseumawe yaitu 24355"
+        ]
+      },
+      {
+        "tag": "wisata_di_lhokseumawe",
+        "patterns": [
+            "apakah ada tempat wisata di lhokseumawe?",
+            "daftar tempat wisata di Kota Lhokseumawe",
+            "wisata lhokseumawe"
+        ],
+        "responses": [
+            "Menurut tempatwisataseru.com ada beberapa tempat wisata hist di Lhokseumawe, yaitu : 1.Pulau Seuamdu, 2.Bukit Goa Jepang, 3.Taman Ngieng Jioh, 4.Sungai Krueng Cunda, 5.Pantai Ujong Blang, 6.Pantai Meuraksa, 7.Waduk Jeuleukat, 8.Taman Riyadhah, 9.Islamic Center Lhokseumawe, 10.Waduk Pusong, 11.Bukit Paloh Batee, 12.Pantai Rancong, 13.Dermaga Pertamina Lhokseumawe. Untuk info lebih lanjut kamu bisa kunjungi link ini yaa😄 : https://tempatwisataseru.com/tempat-wisata-di-lhokseumawe/ "
+        ]
+      },
+      {
+        "tag": "kecamatan_di_lhokseumawe",
+        "patterns": [
+            "daftar kecamatan di lhokseumawe",
+            "nama-nama kecamatan di lhokseumawe?",
+            "kecamatan di Kota Lhokseumawe"
+        ],
+        "responses": [
+            "Lhokseumawe memiliki 4 kecamatan, yaitu : 1.Banda Sakti yang memiliki 18 gampong, 2.Blang Mangat yang memiliki 22 gampong, 3.Muara Dua yang memiliki 17 gampong, dan 4.Muara Satu yang memiliki 11 gampong. Untuk info lebih lanjut kamu bisa kunjungi link ini yaa😄 : https://id.wikipedia.org/wiki/Daftar_kecamatan_dan_gampong_di_Kota_Lhokseumawe"
+        ]
+      }
+    ]
+}
